@@ -1,6 +1,0 @@
-#!/bin/sh
-if [ "$1" = "configure" ]; then
-	if ! getent passwd quicktun >/dev/null; then
-		/usr/sbin/useradd -d /nonexistent -N -r -s /bin/false -g nogroup quicktun
-	fi
-fi

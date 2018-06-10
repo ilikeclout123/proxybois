@@ -1,8 +1,0 @@
-Package: quicktun
-Version: 2.2.5-0
-Section: net
-Priority: optional
-Architecture: amd64
-Depends: bash, daemon, iproute (>= 20100519-1) | iproute2 | openvpn, passwd, coreutils
-Maintainer: Ivo Smits <ivo@ucis.nl>
-Description: Very simple, yet secure VPN software
