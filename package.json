@@ -7,11 +7,9 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "cd ~/node-unblocker/node-unblocker-master/examples/nodeunblocker.com/&&np"
   },
   "dependencies": {
-    "express": "^4.16.3",
-    "openvpn-bin": "^0.1.2"
   },
   "engines": {
     "node": "8.x"
