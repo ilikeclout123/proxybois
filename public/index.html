@@ -36,12 +36,12 @@
     .footer p { margin:0; position: absolute; bottom: 10px;  right: 10px; padding-left: 10px; }
   </style>
 </head>
-<body>
+<body onload="document.getElementById('url').focus();if(window.location.search.indexOf('error=')>-1){var err=window.location.search.substr(window.location.search.indexOf('error=')+6,window.location.search.indexOf('&',window.location.search.indexOf('error='))==-1?undefined:window.location.search.indexOf('&',window.location.search.indexOf('error=')));document.getElementById('error').innerText=document.getElementById('error').textContent=decodeURIComponent(err);document.getElementById('error').style.display='block';}">
   <div class="container">
     <div class="main">
       <h1>webproxy</h1>
       <div id="error"></div>
-      <form action="no-js" method="get" id="unblocker-form">
+      <form action="no-js" method="get" id="unblocker-form" onsubmit="window.location.pathname='proxy/'+(document.getElementById('url').value.substr(0,4)!='http'?'http://':'')+document.getElementById('url').value;return false;">
         <p>
           URL: 
           <input type="text" id="url" name="url" autofocus="autofocus" />
@@ -57,29 +57,5 @@
       <p><a href="https://github.com/nfriedly/node-unblocker">based on Node Unblocker</a> by <a href="http://nfriedly.com/" title="Node.js developer and JavaScript Expert">Nathan Friedly</a>. webproxy by <a href="http://sfg.id0t.x10.mx" title="YouTube">ayuami2000</a></p>
     </div>
   </div>
-	<script>
-		document.getElementById('unblocker-form').onsubmit=function(){window.location.pathname='proxy/'+(document.getElementById('url').value.substr(0,4)!="http"?"http://":"")+document.getElementById('url').value;return false;};
-
-		function checkError(){
-			var search = window.location.search;
-			var start = search.indexOf('error=');
-			if(start > -1){
-				var stop = search.indexOf('&', start);
-				if(stop == -1){ stop = undefined; }
-				// +6 for "error="
-				var err = search.substr(start+6, stop);
-                var $error = document.getElementById('error');
-				$error.innerText = $error.textContent = decodeURIComponent(err);
-				$error.style.display = "block";
-			}
-		}
-    
-		window.onload = function() { 
-			document.getElementById('url').focus(); 
-			checkError(); 
-		}
-	</script>
-  
-  
 </body>
 </html>
