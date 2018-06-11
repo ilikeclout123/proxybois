@@ -1,19 +1,22 @@
 {
-  "//1": "",
-  "//2": "",
-  "//3": "",
-  "name": "webproxy",
-  "version": "0.0.1",
-  "description": "A web proxy",
-  "main": "./webproxy/examples/nodeunblocker.com/app.js",
-  "scripts": {
-    "start": "cd ~/webproxy/examples/nodeunblocker.com/&&npm start"
+  "name": "nodeunblocker.com",
+  "description": "Web proxy for evading internet censorship",
+  "author": "Nathan Friedly - http://nfriedly.com",
+  "version": "1.0.0",
+  "private": "true",
+  "homepage": "http://nodeunblocker.com/",
+  "dependencies": {
+    "express": "^4.13.0",
+    "gatling": "~1.2.0",
+    "newrelic": "^1.20.2",
+    "through": "^2.3.8",
+    "unblocker": "*"
   },
-  "dependencies": {},
   "engines": {
-    "node": "8.x"
+    "node": ">=0.12.x",
+    "npm": ">=2.7.0"
   },
-  "repository": {},
-  "license": "",
-  "keywords": []
+  "scripts": {
+    "start": "node ./node_modules/gatling/gatling.js ./app.js"
+  }
 }
