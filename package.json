@@ -1,7 +1,7 @@
 {
-  "name": "nodeunblocker.com",
+  "name": "webproxy",
   "description": "Web proxy for evading internet censorship",
-  "author": "Nathan Friedly - http://nfriedly.com",
+  "author": "ayunami2000 - http://sfg.id0t.x10.mx // Nathan Friedly - http://nfriedly.com",
   "version": "1.0.0",
   "private": "true",
   "homepage": "http://webproxy.glitch.me/",
@@ -13,7 +13,7 @@
     "unblocker": "^1.2.0"
   },
   "engines": {
-    "node": ">=0.12.x",
+    "node": ">=10.4.0",
     "npm": ">=2.7.0"
   },
   "scripts": {
