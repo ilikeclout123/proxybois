@@ -4,13 +4,13 @@
   "author": "Nathan Friedly - http://nfriedly.com",
   "version": "1.0.0",
   "private": "true",
-  "homepage": "http://nodeunblocker.com/",
+  "homepage": "http://webproxy.glitch.me/",
   "dependencies": {
-    "express": "^4.13.0",
-    "gatling": "~1.2.0",
-    "newrelic": "^1.20.2",
+    "express": "^4.16.3",
+    "gatling": "^1.2.0",
+    "newrelic": "^4.1.4",
     "through": "^2.3.8",
-    "unblocker": "*"
+    "unblocker": "^1.2.0"
   },
   "engines": {
     "node": ">=0.12.x",
