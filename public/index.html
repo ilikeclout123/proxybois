@@ -41,7 +41,7 @@
     <div class="main">
       <h1>webproxy</h1>
       <div id="error"></div>
-      <form action="no-js" method="get" id="unblocker-form" onsubmit="window.location.pathname='~'+(document.getElementById('url').value.substr(0,4)!='http'?'http://':'')+document.getElementById('url').value;return false;">
+      <form action="no-js" method="get" id="unblocker-form" onsubmit="window.location.href='/~/'+(document.getElementById('url').value.substr(0,4)!='http'?'http://':'')+document.getElementById('url').value;return false;">
         <p>
           URL: 
           <input type="text" id="url" name="url" autofocus="autofocus" />
