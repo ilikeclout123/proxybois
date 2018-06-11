@@ -5,9 +5,9 @@
   "name": "webproxy",
   "version": "0.0.1",
   "description": "A web proxy",
-  "main": "./node-unblocker/node-unblocker-master/examples/nodeunblocker.com/app.js",
+  "main": "./webproxy/examples/nodeunblocker.com/app.js",
   "scripts": {
-    "start": "cd ~/node-unblocker/node-unblocker-master/examples/nodeunblocker.com/&&npm start"
+    "start": "cd ~/webproxy/examples/nodeunblocker.com/&&npm start"
   },
   "dependencies": {},
   "engines": {
