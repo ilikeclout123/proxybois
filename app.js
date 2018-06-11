@@ -1,3 +1,4 @@
+var url=require('url');
 var express=require('express');
 var app=express();
 /*
@@ -8,6 +9,6 @@ function googleAnalyticsMiddleware(data){if(data.contentType=='text/html')data.s
 var prefix='/~/';
 app.use(require('unblocker')({prefix:prefix,responseMiddleware:[]}));//googleAnalyticsMiddleware
 app.use('/',express.static(__dirname+'/public'));
-app.get("/no-js",function(req,res){res.redirect(prefix+require('querystring').parse(require('url').parse(req.url).query).url);});
-app.use(function(req,res,next){res.status(404);res.type('html').send('<meta http-equiv="refresh" content="0;url=/">');});
+app.get("/no-js",function(req,res){res.redirect(prefix+require('querystring').parse(url.parse(req.url).query).url);});
+app.use(function(req,res,next){res.status(404);res.type('html').send('<meta http-equiv="refresh" content="0;url='+url.resolve(req.url,'/')+'">');});
 module.exports=app;
