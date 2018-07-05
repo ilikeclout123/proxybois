@@ -244,6 +244,7 @@ packages:
     dependencies:
       optimist: 0.6.1
     dev: false
+    hasBin: true
     resolution:
       integrity: sha1-rCDViqwTo82ntjtc0rO247MLEHw=
   /http-errors/1.6.2:
@@ -345,12 +346,14 @@ packages:
       integrity: sha512-lc/aahn+t4/SWV/qcmumYjymLsWfN3ELhpmVuUFjgsORruuZPVSwAQryq+HHGvO/SI2KVX26bx+En+zhM8g8hQ==
   /mime/1.4.1:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
   /mime/1.6.0:
     dev: false
     engines:
       node: '>=4'
+    hasBin: true
     resolution:
       integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
   /minimist/0.0.10:
@@ -386,6 +389,7 @@ packages:
     engines:
       node: '>=4.0.0'
       npm: '>=2.0.0'
+    hasBin: true
     optionalDependencies:
       '@newrelic/native-metrics': 2.4.0
     resolution:
@@ -477,6 +481,7 @@ packages:
       integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
   /semver/5.5.0:
     dev: false
+    hasBin: true
     resolution:
       integrity: sha512-4SJ3dm0WAwWy/NVeioZh5AntkdJoWKxHxcmyP622fOkgHa4z3R0TdBJICINyaSDE6uNwVc8gZr+ZinwZAH4xIA==
   /send/0.16.2:
@@ -608,7 +613,7 @@ packages:
     resolution:
       integrity: sha1-o9XabNXAvAAI03I0u68b7WMFkQc=
 registry: 'https://registry.npmjs.org/'
-shrinkwrapMinorVersion: 7
+shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
   express: ^4.16.3
