@@ -11,7 +11,7 @@
 <body onload="document.getElementById('url').focus();if(window.location.search.indexOf('error=')>-1){var err=window.location.search.substr(window.location.search.indexOf('error=')+6,window.location.search.indexOf('&',window.location.search.indexOf('error='))==-1?undefined:window.location.search.indexOf('&',window.location.search.indexOf('error=')));document.getElementById('error').innerText=document.getElementById('error').textContent=decodeURIComponent(err);document.getElementById('error').style.display='block';}">
   <div class="container">
     <div class="main">
-      <h1></h1>
+      <h1>2245-Proxy</h1>
       <div id="error"></div>
       <form action="-" method="get" onsubmit="window.location.href='/~/'+(document.getElementById('url').value.substr(0,4)!='http'?'http://':'')+document.getElementById('url').value;return false;">
         <p>
