@@ -9,9 +9,14 @@
   <link href="css.css" rel="stylesheet" type="text/css">
 </head>
 <body onload="document.getElementById('url').focus();if(window.location.search.indexOf('error=')>-1){var err=window.location.search.substr(window.location.search.indexOf('error=')+6,window.location.search.indexOf('&',window.location.search.indexOf('error='))==-1?undefined:window.location.search.indexOf('&',window.location.search.indexOf('error=')));document.getElementById('error').innerText=document.getElementById('error').textContent=decodeURIComponent(err);document.getElementById('error').style.display='block';}">
-  <div class="container">
-    <div class="main">
+    <div class="header">
       <h1>2245-Proxy</h1>
+      </div>
+    <div class="navbar">
+      <
+  </div>
+    <br>
+    <div class="textHolder">
       <div id="error"></div>
       <form action="-" method="get" onsubmit="window.location.href='/~/'+(document.getElementById('url').value.substr(0,4)!='http'?'http://':'')+document.getElementById('url').value;return false;">
         <p>
@@ -23,9 +28,11 @@
       <h3></h3>
       <p></p>
       <p></p>
-      <p>2245 Games, do not leak unless permitted to.</p>
-    </div>
+      <div class="footer">
+        This document is private, authorized users only.
+      </div>
     <div>
-  </div>
+    </div>
+    </div>
 </body>
 </html>
