@@ -92,3 +92,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 5px 10px black;
 }
+
+.img {
+  background-image: url("https://cdn.glitch.com/f11cddb4-cc4c-4e35-b19d-fe3fa43679c8%2Fthumbnails%2F76c3d72d-59be-4035-af74-a4cef12c9b34.image.png?1580323670884");
+}
