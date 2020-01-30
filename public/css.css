@@ -27,8 +27,8 @@ input:hover {
 }
 
 .header {
-  background-color: #121212;
-  color: white;
+  background-color: #DFDFDF;
+  color: black;
   padding: 20px;
   font-family: 'Open Sans', sans-serif;
   text-shadow: 0px 5px 10px black;
@@ -39,14 +39,14 @@ h3 {
 }
 
 body {
-  background-color: #000000;
+  background-color: #fcf5ee;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
 .textHolder {
-  background-color: #121212;
+  background-color: #BDB8B3;
   color: white;
   font-family: 'Open Sans', sans-serif;
   box-shadow: 0px 5px 10px black;
@@ -55,7 +55,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #121212;
+  background-color: #BDB8B3;
   box-shadow: 0px 5px 10px black;
 }
 
