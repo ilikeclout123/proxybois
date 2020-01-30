@@ -12,17 +12,17 @@ input[type=text]{width:640px;max-width:calc(100% - 8em);}
   background-color:aqua
 }
 input {
-  box-shadow: 0px 5px 10px black;
+  box-shadow: 0px 5px 10px grey;
   border: none;
-  background-color: #121212;
-  color: white;
+  background-color: #BFBFBF;
+  color: black;
   transition-duration: 0.4s;
-  text-shadow: 0px 5px 10px black;
+  text-shadow: 0px 5px 10px grey;
 }
 
 input:hover {
-  background-color: #b6867c;
-  color: black;
+  background-color: #9F9F9F;
+  color: white;
   transition-duration: 0.4s;
 }
 
@@ -31,7 +31,7 @@ input:hover {
   color: black;
   padding: 20px;
   font-family: 'Open Sans', sans-serif;
-  text-shadow: 0px 5px 10px black;
+  text-shadow: 0px 5px 10px grey;
 }
 
 h3 {
@@ -40,38 +40,39 @@ h3 {
 
 body {
   background-color: #fcf5ee;
-  color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 
 .textHolder {
   background-color: #BDB8B3;
-  color: white;
+  color: black;
   font-family: 'Open Sans', sans-serif;
-  box-shadow: 0px 5px 10px black;
+  box-shadow: 0px 5px 10px grey;
   padding: 20px;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #BDB8B3;
-  box-shadow: 0px 5px 10px black;
+  background-color: #BFBFBF;
+  color: black;
+  box-shadow: 0px 5px 10px grey;
 }
 
 .navbar a {
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  text-shadow: 0px 5px 10px black;
+  text-shadow: 0px 5px 10px grey;
 }
 
 .navbar a:hover {
-  background-color: #b6867c;
-  color: black;
+  background-color: #9F9F9F;
+  color: white;
   transition-duration: 0.4s;
 }
 
@@ -81,16 +82,16 @@ body {
   bottom: 0;
   width: 100%;
   padding: 10px;
-  background-color: #121212;
-  box-shadow: 10px 10px 50px black;
-  color: white;
+  background-color: #9F9F9F;
+  box-shadow: 10px 10px 50px grey;
+  color: black;
   text-align: center;
 }
 
 .footer a {
-  color: white;
+  color: black;
   text-decoration: none;
-  text-shadow: 0px 5px 10px black;
+  text-shadow: 0px 5px 10px grey;
 }
 
 .img {
