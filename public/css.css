@@ -17,7 +17,6 @@ input {
   background-color: hsl(0, 0%, 90%);
   color: black;
   transition-duration: 0.4s;
-  text-shadow: 0px 5px 10px grey;
 }
 
 input:hover {
@@ -35,7 +34,7 @@ input:hover {
 }
 
 h3 {
-  text-shadow: 0px 5px 10px black;
+  
 }
 
 body {
@@ -67,7 +66,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  text-shadow: 0px 5px 10px grey;
+  text-shadow: 0px 0px 0px black;
 }
 
 .navbar a:hover {
@@ -91,7 +90,6 @@ body {
 .footer a {
   color: black;
   text-decoration: none;
-  text-shadow: 0px 5px 10px grey;
 }
 
 .img {
