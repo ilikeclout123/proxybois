@@ -14,20 +14,20 @@ input[type=text]{width:640px;max-width:calc(100% - 8em);}
 input {
   box-shadow: 0px 5px 10px grey;
   border: none;
-  background-color: #BFBFBF;
+  background-color: hsl(0, 0%, 90%);
   color: black;
   transition-duration: 0.4s;
   text-shadow: 0px 5px 10px grey;
 }
 
 input:hover {
-  background-color: #9F9F9F;
-  color: white;
+  background-color: hsl(0, 0%, 80%);
+  color: black;
   transition-duration: 0.4s;
 }
 
 .header {
-  background-color: #DFDFDF;
+  background-color: hsl(0, 0%, 90%);
   color: black;
   padding: 20px;
   font-family: 'Open Sans', sans-serif;
@@ -46,7 +46,7 @@ body {
 }
 
 .textHolder {
-  background-color: #BDB8B3;
+  background-color: hsl(0, 0%, 90%);
   color: black;
   font-family: 'Open Sans', sans-serif;
   box-shadow: 0px 5px 10px grey;
@@ -55,7 +55,7 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #BFBFBF;
+  background-color: hsl(0, 0%, 90%);
   color: black;
   box-shadow: 0px 5px 10px grey;
 }
@@ -71,8 +71,8 @@ body {
 }
 
 .navbar a:hover {
-  background-color: #9F9F9F;
-  color: white;
+  background-color: hsl(0, 0%, 80%);
+  color: black;
   transition-duration: 0.4s;
 }
 
@@ -96,4 +96,15 @@ body {
 
 .img {
   background-image: url("https://cdn.glitch.com/f11cddb4-cc4c-4e35-b19d-fe3fa43679c8%2Fthumbnails%2F76c3d72d-59be-4035-af74-a4cef12c9b34.image.png?1580323670884");
+}
+
+btn {
+  box-shadow: 0px 5px 10px grey;
+  border: none;
+  transition-duration: 0.4s;
+  text-shadow: 0px 5px 10px grey;
+}
+
+btn-primary {
+  background-color: hsl(220, 90%, 56%);
 }
